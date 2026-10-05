@@ -1,0 +1,56 @@
+[
+  {
+    "multiplier": 0.0,
+    "max_cell_harm": 1.0,
+    "mean_improvement": -0.0016124999999999928,
+    "harmful": 332,
+    "outcomes": 800,
+    "unresolved": 0,
+    "empirically_nondominated": false
+  },
+  {
+    "multiplier": 0.25,
+    "max_cell_harm": 1.0,
+    "mean_improvement": -0.0013812499999999938,
+    "harmful": 238,
+    "outcomes": 800,
+    "unresolved": 0,
+    "empirically_nondominated": false
+  },
+  {
+    "multiplier": 0.5,
+    "max_cell_harm": 1.0,
+    "mean_improvement": 0.002062500000000003,
+    "harmful": 130,
+    "outcomes": 800,
+    "unresolved": 0,
+    "empirically_nondominated": false
+  },
+  {
+    "multiplier": 0.75,
+    "max_cell_harm": 0.64,
+    "mean_improvement": 0.0031000000000000016,
+    "harmful": 64,
+    "outcomes": 800,
+    "unresolved": 0,
+    "empirically_nondominated": false
+  },
+  {
+    "multiplier": 1.0,
+    "max_cell_harm": 0.0,
+    "mean_improvement": 0.004275000000000002,
+    "harmful": 0,
+    "outcomes": 800,
+    "unresolved": 0,
+    "empirically_nondominated": true
+  },
+  {
+    "multiplier": 1.5,
+    "max_cell_harm": 0.0,
+    "mean_improvement": 0.0032500000000000007,
+    "harmful": 0,
+    "outcomes": 800,
+    "unresolved": 0,
+    "empirically_nondominated": false
+  }
+]
