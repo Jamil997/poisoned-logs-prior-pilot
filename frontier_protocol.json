@@ -1,0 +1,13 @@
+{
+  "stage":"Exploratory Pareto sweep specified after the main pilot; fresh seeds",
+  "environments":["diverse_matched_gain","original_control"],
+  "eta":0.05,
+  "epsilons":[0.005,0.01,0.025,0.05],
+  "seeds":{"start":3000,"count":100},
+  "budget_multipliers":[0.0,0.25,0.5,0.75,1.0,1.5],
+  "base_gate":"centered_dr_b",
+  "defender_cap":"floor(multiplier * actual cap)",
+  "threat":"Attacker always receives the full actual cap. Each rule faces its own minimum-true-value binary-flip attack.",
+  "axes":"Maximum observed harm rate across the eight stress settings; uniformly averaged worst-attacked true improvement across those settings. Also publish all per-setting results.",
+  "interpretation":"Multipliers below 1 intentionally understate corruption and lose the stated protection guarantee. Multiplier 1 is the correctly specified proposed gate; 1.5 is conservative. A finite measured frontier is not global Pareto-optimality. This is a fresh-seed exploratory robustness study, not a replacement for the fixed primary comparison."
+}

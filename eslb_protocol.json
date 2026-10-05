@@ -1,0 +1,15 @@
+{
+  "stage": "Supplementary published-method comparison, fixed after seeing the main experiment",
+  "environment": "diverse_matched_gain",
+  "eta": 0.05,
+  "epsilons": [0.0,0.005,0.01,0.025],
+  "seeds": {"start":2000,"count":100},
+  "mc_iterations":20,
+  "mc_batch_size":5,
+  "bias_type":"Bernstein, for arbitrary bounded rewards; do not use the one-hot reward assumption",
+  "simultaneous_confidence":"alpha/(M+1) for M candidate lower bounds and the baseline complement lower bound",
+  "mc_randomness":"Frozen per log/policy before attacking, independent of rewards; attacker knows resulting final rule",
+  "methods":["sn_eslb","robust_sn_eslb"],
+  "attack":"Same minimum-true-value binary-flip attack as in the main experiment",
+  "qualification":"Original authors' Efron-Stein estimator code, called unchanged through an AST loader to avoid unrelated JAX/OpenML dependencies. Monte Carlo proxies are numerical approximations. The corruption-aware wrapper and baseline-contrast adaptation are our additions."
+}

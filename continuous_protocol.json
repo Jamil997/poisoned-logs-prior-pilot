@@ -1,0 +1,26 @@
+{
+  "stage": "Supplementary stress test, fixed after main results",
+  "environment": "diverse_matched_gain",
+  "eta": 0.05,
+  "epsilon": 0.005,
+  "seeds": {
+    "start": 2000,
+    "count": 100
+  },
+  "methods": [
+    "ips_h",
+    "robust_ips_h",
+    "centered_dr_b",
+    "robust_centered_dr_b",
+    "tabular_h",
+    "robust_tabular_h"
+  ],
+  "stress_attack": "On the primary cell, optimize final-rule target margins over fractional reward amplitudes on multiple fixed edit allocations: each method's worst binary witness, upward greedy allocations for each candidate, and four random allocations. Each allocation uses at most k edits; amplitudes vary in [0,1]. Differential evolution targets the bad candidates and fallback. This is a restricted continuous search, not a global continuous optimum.",
+  "differential_evolution": {
+    "maxiter": 20,
+    "popsize": 4,
+    "polish": false
+  },
+  "stronger_analytic_check": "For corrected centered DR compute L_j^all = clean nominal score_j - C_(2k,j)(clean log), a simultaneous lower envelope over every <=k real-valued attack. For all candidates, the attacked corrected score_j is <= clean nominal score_j. If the lower envelope for a candidate of value at least v beats zero and the upper scores of every lower-value candidate, then every real-valued attack selects a policy worth at least v on this realized log. Report the frequency and values of these deterministic certificates.",
+  "execution_note": "The full real-valued envelope was proved and audited. It rules out harmful selection for every allowed attack on all primary logs, and yields a worst-value lower bound. This supersedes the proposed restricted differential-evolution stress search, which was not run. In addition, 500 random fractional witnesses verified the implementation."
+}
