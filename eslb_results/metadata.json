@@ -1,0 +1,9 @@
+{
+  "runtime_seconds": 134.97324399999343,
+  "upstream_commit": "3c867e75ca22fd6eb01ac21e41fdc77f47b06ca8",
+  "upstream_estimators_sha256": "57825a8f74426a0252d064223c51656dc08f911039d074108728e661e04ae51d",
+  "linearization_max_error": 2.013944566670034e-13,
+  "unresolved_outcomes": 0,
+  "outcomes": 800,
+  "protocol_sha256": "2b5c6700a67d40173868ed1767e23335fdfcad74503ec26bd062ae3f19895726"
+}

@@ -1,0 +1,9 @@
+environment,eta,epsilon,method,R,harm_count,harm_rate,harm_lower,harm_upper,harm_upper_onesided,mean_improvement,improvement_low,improvement_high,fallback_rate,unresolved
+diverse_matched_gain,0.05,0.0,sn_eslb,100,0,0.0,0.0,0.03621669264517641,0.029513049607039925,0.0,0.0,0.0,1.0,0
+diverse_matched_gain,0.05,0.0,robust_sn_eslb,100,0,0.0,0.0,0.03621669264517641,0.029513049607039925,0.0,0.0,0.0,1.0,0
+diverse_matched_gain,0.05,0.005,sn_eslb,100,0,0.0,0.0,0.03621669264517641,0.029513049607039925,0.0,0.0,0.0,1.0,0
+diverse_matched_gain,0.05,0.005,robust_sn_eslb,100,0,0.0,0.0,0.03621669264517641,0.029513049607039925,0.0,0.0,0.0,1.0,0
+diverse_matched_gain,0.05,0.01,sn_eslb,100,0,0.0,0.0,0.03621669264517641,0.029513049607039925,0.0,0.0,0.0,1.0,0
+diverse_matched_gain,0.05,0.01,robust_sn_eslb,100,0,0.0,0.0,0.03621669264517641,0.029513049607039925,0.0,0.0,0.0,1.0,0
+diverse_matched_gain,0.05,0.025,sn_eslb,100,0,0.0,0.0,0.03621669264517641,0.029513049607039925,0.0,0.0,0.0,1.0,0
+diverse_matched_gain,0.05,0.025,robust_sn_eslb,100,0,0.0,0.0,0.03621669264517641,0.029513049607039925,0.0,0.0,0.0,1.0,0
