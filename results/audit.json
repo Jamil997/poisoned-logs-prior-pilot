@@ -1,0 +1,147 @@
+{
+  "passed": true,
+  "row_reconstructions": 21000,
+  "max_row_error": 2.424727085781342e-13,
+  "reported_ambiguous_ties": 2,
+  "tie_resolutions": [
+    {
+      "environment": "diverse_matched_gain",
+      "eta": 0.5,
+      "epsilon": 0.005,
+      "seed": 2038,
+      "method": "centered_dr_b",
+      "unreachable_target": 5,
+      "dominating_candidate": 4,
+      "max_pairwise_score_difference": 0.0,
+      "reason": "Candidate 5 cannot strictly beat lower-index candidate 4; exact integer numerator bound -500+500=0."
+    },
+    {
+      "environment": "diverse_matched_gain",
+      "eta": 0.5,
+      "epsilon": 0.005,
+      "seed": 2038,
+      "method": "robust_centered_dr_b",
+      "unreachable_target": 5,
+      "dominating_candidate": 4,
+      "max_pairwise_score_difference": 0.0,
+      "reason": "Candidate 5 cannot strictly beat lower-index candidate 4; exact integer numerator bound -500+500=0."
+    }
+  ],
+  "remaining_ambiguous_ties": 0,
+  "random_fractional_checks": 500,
+  "paired_primary_comparisons": [
+    {
+      "comparator": "retain",
+      "axis": "binary_worst_value",
+      "paired_mean_gain": 0.034300000000000004,
+      "ci_low": 0.03291104813388951,
+      "ci_high": 0.0356889518661105
+    },
+    {
+      "comparator": "retain",
+      "axis": "continuous_certificate_lower_bound",
+      "paired_mean_gain": 0.029349999999999998,
+      "ci_low": 0.028507990908359076,
+      "ci_high": 0.03019200909164092
+    },
+    {
+      "comparator": "ips_h",
+      "axis": "binary_worst_value",
+      "paired_mean_gain": 0.0088,
+      "ci_low": 0.005655966401808829,
+      "ci_high": 0.011944033598191172
+    },
+    {
+      "comparator": "ips_h",
+      "axis": "continuous_certificate_lower_bound",
+      "paired_mean_gain": 0.0038499999999999967,
+      "ci_low": 0.0004986093850086236,
+      "ci_high": 0.00720139061499137
+    },
+    {
+      "comparator": "robust_ips_h",
+      "axis": "binary_worst_value",
+      "paired_mean_gain": 0.0316,
+      "ci_low": 0.02945735748867693,
+      "ci_high": 0.03374264251132308
+    },
+    {
+      "comparator": "robust_ips_h",
+      "axis": "continuous_certificate_lower_bound",
+      "paired_mean_gain": 0.02665,
+      "ci_low": 0.024539264179374003,
+      "ci_high": 0.028760735820625997
+    },
+    {
+      "comparator": "centered_dr_b",
+      "axis": "binary_worst_value",
+      "paired_mean_gain": 0.009299999999999996,
+      "ci_low": 0.007911048133889502,
+      "ci_high": 0.01068895186611049
+    },
+    {
+      "comparator": "centered_dr_b",
+      "axis": "continuous_certificate_lower_bound",
+      "paired_mean_gain": 0.004349999999999992,
+      "ci_low": 0.0035079909083590706,
+      "ci_high": 0.005192009091640914
+    },
+    {
+      "comparator": "tabular_h",
+      "axis": "binary_worst_value",
+      "paired_mean_gain": 0.010549999999999993,
+      "ci_low": 0.009329654025198184,
+      "ci_high": 0.011770345974801803
+    },
+    {
+      "comparator": "tabular_h",
+      "axis": "continuous_certificate_lower_bound",
+      "paired_mean_gain": 0.005599999999999991,
+      "ci_low": 0.004727546026360411,
+      "ci_high": 0.006472453973639571
+    },
+    {
+      "comparator": "robust_tabular_h",
+      "axis": "binary_worst_value",
+      "paired_mean_gain": 0.0323,
+      "ci_low": 0.03041117385049461,
+      "ci_high": 0.03418882614950539
+    },
+    {
+      "comparator": "robust_tabular_h",
+      "axis": "continuous_certificate_lower_bound",
+      "paired_mean_gain": 0.02735,
+      "ci_low": 0.02557495431823384,
+      "ci_high": 0.02912504568176616
+    },
+    {
+      "comparator": "sn_eslb",
+      "axis": "binary_worst_value",
+      "paired_mean_gain": 0.034300000000000004,
+      "ci_low": 0.03291104813388951,
+      "ci_high": 0.0356889518661105
+    },
+    {
+      "comparator": "sn_eslb",
+      "axis": "continuous_certificate_lower_bound",
+      "paired_mean_gain": 0.029349999999999998,
+      "ci_low": 0.028507990908359076,
+      "ci_high": 0.03019200909164092
+    },
+    {
+      "comparator": "robust_sn_eslb",
+      "axis": "binary_worst_value",
+      "paired_mean_gain": 0.034300000000000004,
+      "ci_low": 0.03291104813388951,
+      "ci_high": 0.0356889518661105
+    },
+    {
+      "comparator": "robust_sn_eslb",
+      "axis": "continuous_certificate_lower_bound",
+      "paired_mean_gain": 0.029349999999999998,
+      "ci_low": 0.028507990908359076,
+      "ci_high": 0.03019200909164092
+    }
+  ],
+  "interval_scope": "Pointwise paired Student-t intervals. Not simultaneous across baselines. A bootstrap/Holm sensitivity check is in analysis.json."
+}

@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "stage": "fixed before follow-up simulation results",
+  "n": 50000,
+  "alpha": 0.05,
+  "seeds": {"start": 2000, "count": 100},
+  "coverage": [0.5, 0.2, 0.05],
+  "corruption": [0.0, 0.005, 0.01, 0.025, 0.05],
+  "environments": {
+    "diverse_matched_gain": {
+      "context_probabilities": [0.25,0.25,0.25,0.25],
+      "action0_means": [0.5,0.5,0.5,0.5],
+      "action1_means": [0.62,0.48,0.54,0.46],
+      "logger_action1": [0.5,"eta",0.5,0.5],
+      "candidate_action1_probabilities": [[1,0,0,0],[0,1,0,0],[0,0,1,0],[0,0,0,1],[1,0,1,0],[1,1,1,1]]
+    },
+    "original_control": {
+      "context_probabilities": [0.5,0.5],
+      "action0_means": [0.5,0.5],
+      "action1_means": [0.6,0.4],
+      "logger_action1": ["eta",0.5],
+      "candidate_betas": [-0.4,-0.2,-0.05,0.05,0.2,0.4]
+    }
+  },
+  "methods": ["retain", "ips_h", "robust_ips_h", "centered_dr_b", "robust_centered_dr_b", "tabular_h", "robust_tabular_h"],
+  "method_details": "H = valid Hoeffding bound. B = deterministic Bernstein bound with a variance upper bound. Centered DR uses fixed qhat=0.5, not a trained or oracle reward model. Tabular H uses conditional Hoeffding plus context-distribution uncertainty. Robust variants subtract exact reward-edit corrections; no additional clean reward data are supplied.",
+  "attack": "For each defender, search candidates in increasing true value; maximize their winning margin by mixed-integer optimization. Also solve whether fallback can be forced. Pick the worst realized feasible outcome. Record unresolved ties/gaps. Binary flips only in the exact optimization; add feasible fractional attacks as a separate stress test.",
+  "attacker_knowledge": "All logged records, logger, candidates, full defender and simulator true values (oracle attack).",
+  "cap": "Declared cap equals actual cap in the main experiment.",
+  "metrics": ["harm_probability_under_own_adaptive_attack", "mean_worst_attacked_true_improvement", "fallback_rate", "attack_gap", "runtime"],
+  "primary_comparison": "diverse_matched_gain, eta=0.05, epsilon=0.005; compare corrected centered DR with corrected IPS, nominal centered DR, nominal IPS and retain-baseline. Report every method and every grid cell, regardless of result.",
+  "success_criterion": "In the primary cell, corrected centered DR must have a one-sided 95% harm upper bound below 5%, a 95% lower confidence bound on mean worst-attacked true improvement above +1 percentage point, and at least +1 pp paired improvement over corrected IPS. Empirical Pareto dominance requires no higher observed harm and no lower mean utility, with at least one strict inequality; statistical uncertainty is reported separately.",
+  "falsification": "No retained useful improvement after stronger attacks, unresolved attack optimization, or domination by tabular/ordinary methods undermines the proposed contribution. A finite comparator set cannot establish global Pareto-optimality. Failure is retained and triggers narrowing or a topic-switch recommendation.",
+  "disclosure": "The new environment deliberately tests separately useful policy alternatives while matching the original best value of +4 pp. It is a second hypothesis-driven experiment, not a replacement of the failed first experiment. No real-data or publication-novelty claim.",
+  "absolute_solver_tolerance": 0.000001,
+  "selection_tolerance": 0.000000001
+}

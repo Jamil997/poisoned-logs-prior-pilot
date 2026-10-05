@@ -1,0 +1,347 @@
+{
+  "primary_cell": [
+    {
+      "environment": "diverse_matched_gain",
+      "eta": 0.05,
+      "epsilon": 0.005,
+      "method": "retain",
+      "R": 100,
+      "harm_count": 0,
+      "harm_rate": 0.0,
+      "harm_lower": 0.0,
+      "harm_upper": 0.03621669264517641,
+      "harm_upper_onesided": 0.029513049607039925,
+      "mean_improvement": 0.0,
+      "improvement_low": 0.0,
+      "improvement_high": 0.0,
+      "fallback_rate": 1.0,
+      "unresolved": 0,
+      "empirically_nondominated": false
+    },
+    {
+      "environment": "diverse_matched_gain",
+      "eta": 0.05,
+      "epsilon": 0.005,
+      "method": "ips_h",
+      "R": 100,
+      "harm_count": 0,
+      "harm_rate": 0.0,
+      "harm_lower": 0.0,
+      "harm_upper": 0.03621669264517641,
+      "harm_upper_onesided": 0.029513049607039925,
+      "mean_improvement": 0.025500000000000002,
+      "improvement_low": 0.022076278223468783,
+      "improvement_high": 0.02892372177653122,
+      "fallback_rate": 0.3,
+      "unresolved": 0,
+      "empirically_nondominated": false
+    },
+    {
+      "environment": "diverse_matched_gain",
+      "eta": 0.05,
+      "epsilon": 0.005,
+      "method": "robust_ips_h",
+      "R": 100,
+      "harm_count": 0,
+      "harm_rate": 0.0,
+      "harm_lower": 0.0,
+      "harm_upper": 0.03621669264517641,
+      "harm_upper_onesided": 0.029513049607039925,
+      "mean_improvement": 0.0027,
+      "improvement_low": 0.0007287529113408136,
+      "improvement_high": 0.004671247088659187,
+      "fallback_rate": 0.93,
+      "unresolved": 0,
+      "empirically_nondominated": false
+    },
+    {
+      "environment": "diverse_matched_gain",
+      "eta": 0.05,
+      "epsilon": 0.005,
+      "method": "centered_dr_b",
+      "R": 100,
+      "harm_count": 0,
+      "harm_rate": 0.0,
+      "harm_lower": 0.0,
+      "harm_upper": 0.03621669264517641,
+      "harm_upper_onesided": 0.029513049607039925,
+      "mean_improvement": 0.025000000000000012,
+      "improvement_low": 0.025000000000000012,
+      "improvement_high": 0.025000000000000012,
+      "fallback_rate": 0.0,
+      "unresolved": 0,
+      "empirically_nondominated": false
+    },
+    {
+      "environment": "diverse_matched_gain",
+      "eta": 0.05,
+      "epsilon": 0.005,
+      "method": "robust_centered_dr_b",
+      "R": 100,
+      "harm_count": 0,
+      "harm_rate": 0.0,
+      "harm_lower": 0.0,
+      "harm_upper": 0.03621669264517641,
+      "harm_upper_onesided": 0.029513049607039925,
+      "mean_improvement": 0.034300000000000004,
+      "improvement_low": 0.03291104813388951,
+      "improvement_high": 0.0356889518661105,
+      "fallback_rate": 0.02,
+      "unresolved": 0,
+      "empirically_nondominated": true
+    },
+    {
+      "environment": "diverse_matched_gain",
+      "eta": 0.05,
+      "epsilon": 0.005,
+      "method": "tabular_h",
+      "R": 100,
+      "harm_count": 0,
+      "harm_rate": 0.0,
+      "harm_lower": 0.0,
+      "harm_upper": 0.03621669264517641,
+      "harm_upper_onesided": 0.029513049607039925,
+      "mean_improvement": 0.023750000000000014,
+      "improvement_low": 0.02266342834448539,
+      "improvement_high": 0.024836571655514637,
+      "fallback_rate": 0.05,
+      "unresolved": 0,
+      "empirically_nondominated": false
+    },
+    {
+      "environment": "diverse_matched_gain",
+      "eta": 0.05,
+      "epsilon": 0.005,
+      "method": "robust_tabular_h",
+      "R": 100,
+      "harm_count": 0,
+      "harm_rate": 0.0,
+      "harm_lower": 0.0,
+      "harm_upper": 0.03621669264517641,
+      "harm_upper_onesided": 0.029513049607039925,
+      "mean_improvement": 0.002,
+      "improvement_low": 0.00040462954398183494,
+      "improvement_high": 0.003595370456018165,
+      "fallback_rate": 0.94,
+      "unresolved": 0,
+      "empirically_nondominated": false
+    },
+    {
+      "environment": "diverse_matched_gain",
+      "eta": 0.05,
+      "epsilon": 0.005,
+      "method": "sn_eslb",
+      "R": 100,
+      "harm_count": 0,
+      "harm_rate": 0.0,
+      "harm_lower": 0.0,
+      "harm_upper": 0.03621669264517641,
+      "harm_upper_onesided": 0.029513049607039925,
+      "mean_improvement": 0.0,
+      "improvement_low": 0.0,
+      "improvement_high": 0.0,
+      "fallback_rate": 1.0,
+      "unresolved": 0,
+      "empirically_nondominated": false
+    },
+    {
+      "environment": "diverse_matched_gain",
+      "eta": 0.05,
+      "epsilon": 0.005,
+      "method": "robust_sn_eslb",
+      "R": 100,
+      "harm_count": 0,
+      "harm_rate": 0.0,
+      "harm_lower": 0.0,
+      "harm_upper": 0.03621669264517641,
+      "harm_upper_onesided": 0.029513049607039925,
+      "mean_improvement": 0.0,
+      "improvement_low": 0.0,
+      "improvement_high": 0.0,
+      "fallback_rate": 1.0,
+      "unresolved": 0,
+      "empirically_nondominated": false
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "comparator": "retain",
+      "axis": "binary_worst_value",
+      "mean_gain": 0.034300000000000004,
+      "bootstrap_ci": [
+        0.032900000000000006,
+        0.03560000000000001
+      ],
+      "one_sided_p": 1.5721873192570854e-71,
+      "holm_adjusted_p": 1.2577498554056683e-70
+    },
+    {
+      "comparator": "ips_h",
+      "axis": "binary_worst_value",
+      "mean_gain": 0.0088,
+      "bootstrap_ci": [
+        0.0058,
+        0.012
+      ],
+      "one_sided_p": 1.1771530393767416e-07,
+      "holm_adjusted_p": 1.1771530393767416e-07
+    },
+    {
+      "comparator": "robust_ips_h",
+      "axis": "binary_worst_value",
+      "mean_gain": 0.0316,
+      "bootstrap_ci": [
+        0.02940000000000001,
+        0.033600000000000005
+      ],
+      "one_sided_p": 7.781733900559209e-51,
+      "holm_adjusted_p": 3.1126935602236837e-50
+    },
+    {
+      "comparator": "centered_dr_b",
+      "axis": "binary_worst_value",
+      "mean_gain": 0.009299999999999996,
+      "bootstrap_ci": [
+        0.007899999999999996,
+        0.010599999999999991
+      ],
+      "one_sided_p": 4.936582728889122e-24,
+      "holm_adjusted_p": 9.873165457778245e-24
+    },
+    {
+      "comparator": "tabular_h",
+      "axis": "binary_worst_value",
+      "mean_gain": 0.010549999999999993,
+      "bootstrap_ci": [
+        0.009399999999999995,
+        0.011749999999999993
+      ],
+      "one_sided_p": 1.0264705991200625e-31,
+      "holm_adjusted_p": 3.079411797360187e-31
+    },
+    {
+      "comparator": "robust_tabular_h",
+      "axis": "binary_worst_value",
+      "mean_gain": 0.0323,
+      "bootstrap_ci": [
+        0.030400000000000003,
+        0.034100000000000005
+      ],
+      "one_sided_p": 1.2611917097639972e-56,
+      "holm_adjusted_p": 6.305958548819986e-56
+    },
+    {
+      "comparator": "sn_eslb",
+      "axis": "binary_worst_value",
+      "mean_gain": 0.034300000000000004,
+      "bootstrap_ci": [
+        0.032900000000000006,
+        0.03560000000000001
+      ],
+      "one_sided_p": 1.5721873192570854e-71,
+      "holm_adjusted_p": 1.2577498554056683e-70
+    },
+    {
+      "comparator": "robust_sn_eslb",
+      "axis": "binary_worst_value",
+      "mean_gain": 0.034300000000000004,
+      "bootstrap_ci": [
+        0.032900000000000006,
+        0.03560000000000001
+      ],
+      "one_sided_p": 1.5721873192570854e-71,
+      "holm_adjusted_p": 1.2577498554056683e-70
+    },
+    {
+      "comparator": "retain",
+      "axis": "continuous_certificate_lower_bound",
+      "mean_gain": 0.029349999999999998,
+      "bootstrap_ci": [
+        0.028449999999999996,
+        0.03
+      ],
+      "one_sided_p": 6.335330772051742e-86,
+      "holm_adjusted_p": 5.0682646176413934e-85
+    },
+    {
+      "comparator": "ips_h",
+      "axis": "continuous_certificate_lower_bound",
+      "mean_gain": 0.0038499999999999967,
+      "bootstrap_ci": [
+        0.0005999999999999957,
+        0.007199999999999997
+      ],
+      "one_sided_p": 0.01239417227343848,
+      "holm_adjusted_p": 0.01239417227343848
+    },
+    {
+      "comparator": "robust_ips_h",
+      "axis": "continuous_certificate_lower_bound",
+      "mean_gain": 0.02665,
+      "bootstrap_ci": [
+        0.02445,
+        0.028551249999999896
+      ],
+      "one_sided_p": 6.053444352831938e-45,
+      "holm_adjusted_p": 2.4213777411327753e-44
+    },
+    {
+      "comparator": "centered_dr_b",
+      "axis": "continuous_certificate_lower_bound",
+      "mean_gain": 0.004349999999999992,
+      "bootstrap_ci": [
+        0.003449999999999991,
+        0.004999999999999991
+      ],
+      "one_sided_p": 1.5520691094113942e-17,
+      "holm_adjusted_p": 3.1041382188227883e-17
+    },
+    {
+      "comparator": "tabular_h",
+      "axis": "continuous_certificate_lower_bound",
+      "mean_gain": 0.005599999999999991,
+      "bootstrap_ci": [
+        0.0048499999999999915,
+        0.0065499999999999925
+      ],
+      "one_sided_p": 7.015670798235048e-23,
+      "holm_adjusted_p": 2.1047012394705145e-22
+    },
+    {
+      "comparator": "robust_tabular_h",
+      "axis": "continuous_certificate_lower_bound",
+      "mean_gain": 0.02735,
+      "bootstrap_ci": [
+        0.0255,
+        0.028999999999999998
+      ],
+      "one_sided_p": 1.5658198512799664e-52,
+      "holm_adjusted_p": 7.829099256399832e-52
+    },
+    {
+      "comparator": "sn_eslb",
+      "axis": "continuous_certificate_lower_bound",
+      "mean_gain": 0.029349999999999998,
+      "bootstrap_ci": [
+        0.028449999999999996,
+        0.03
+      ],
+      "one_sided_p": 6.335330772051742e-86,
+      "holm_adjusted_p": 5.0682646176413934e-85
+    },
+    {
+      "comparator": "robust_sn_eslb",
+      "axis": "continuous_certificate_lower_bound",
+      "mean_gain": 0.029349999999999998,
+      "bootstrap_ci": [
+        0.028449999999999996,
+        0.03
+      ],
+      "one_sided_p": 6.335330772051742e-86,
+      "holm_adjusted_p": 5.0682646176413934e-85
+    }
+  ],
+  "bootstrap_repetitions": 20000,
+  "success_criterion_passed": true,
+  "scientific_interpretation": "Empirical dominance over the tested fixed gates in the prespecified primary condition; not global Pareto-optimality. Probability statements concern fresh logs, while the continuous certificate is deterministic conditional on each realized log."
+}

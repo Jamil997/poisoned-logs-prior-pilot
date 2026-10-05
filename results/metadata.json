@@ -1,0 +1,12 @@
+{
+  "runtime_seconds": 283.8850192500395,
+  "observations": 21000,
+  "milp_calls": 98845,
+  "unresolved_outcomes": 2,
+  "max_subproblem_gap": 9.99305930790797e-07,
+  "protocol_sha256": "12bfa393372a84a2293ae8204f069573b3f8adc60373f5fa7dadbf8b2ed93051",
+  "source_sha256": "2f44610adc8c5bf0244be4648813acae291e22d02814d6a77752c1b264d54264",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "smoke": false
+}
